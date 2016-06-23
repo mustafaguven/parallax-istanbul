@@ -1,2 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/opt/projects/ParallaxSample/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="da4551b8af16907d345c2a034b53197e06a04c1f">
+        <dex dex="/opt/projects/ParallaxSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f418bd7af49065f56b39cef3e5760536a246a502/classes.dex" />
+    </item>
+    <item
+        jar="/opt/projects/ParallaxSample/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/opt/projects/ParallaxSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_2b170b6f733c1d68a7a2e605568ce382fdb6eecf/classes.dex" />
+    </item>
+    <item
+        jar="/opt/projects/ParallaxSample/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/opt/projects/ParallaxSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_61955c0d6b0c50ff75e3cd8e3b26f293cf0052e7/classes.dex" />
+    </item>
+    <item
+        jar="/opt/projects/ParallaxSample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/opt/projects/ParallaxSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_a7c6b2245e542f0a274b682452f6837f2d3c826b/classes.dex" />
+    </item>
+    <item
+        jar="/opt/projects/ParallaxSample/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="174056b3c86d2467843e2f9fde12a105235b19a5">
+        <dex dex="/opt/projects/ParallaxSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_59914cfa3e6466897cee5ca52df683be54734db9/classes.dex" />
+    </item>
+    <item
+        jar="/opt/projects/ParallaxSample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/opt/projects/ParallaxSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_f691efc85b3809bec8250adacc69484bb0d78293/classes.dex" />
+    </item>
+    <item
+        jar="/opt/projects/ParallaxSample/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d4ab8678882571a0a6f19c47a826ecbce5b4f42b">
+        <dex dex="/opt/projects/ParallaxSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.1.0_3d9cecbf2bef4454e92feb6d5f7e4fa82d17919b/classes.dex" />
+    </item>
+    <item
+        jar="/opt/projects/ParallaxSample/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/opt/projects/ParallaxSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_b6f4475e9a729130fd9f6e2e3b0d90fa0b9cbf66/classes.dex" />
+    </item>
+    <item
+        jar="/opt/projects/ParallaxSample/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/opt/projects/ParallaxSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_334c98e7798e9a0eba4ab245cde930f9cf457989/classes.dex" />
+    </item>
+    <item
+        jar="/home/mustafaguven/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.1.0/d6854f42bfb4098d3d2358d93201307b9f1cc95d/butterknife-annotations-8.1.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d6854f42bfb4098d3d2358d93201307b9f1cc95d">
+        <dex dex="/opt/projects/ParallaxSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.1.0_c468c8f1f7f3dd4ee83c7e41dc15cf3fd5b883c5/classes.dex" />
+    </item>
+    <item
+        jar="/opt/projects/ParallaxSample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/opt/projects/ParallaxSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_fb74d794aadc22ac596cd2b265988a00655a60a0/classes.dex" />
+    </item>
+    <item
+        jar="/home/mustafaguven/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/opt/projects/ParallaxSample/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_0e14248e0d7b7bdc99cc645a61626203a8d01a0e/classes.dex" />
+    </item>
+
+</items>
