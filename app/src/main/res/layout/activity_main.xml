@@ -1,0 +1,145 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/picture_height"
+      android:clickable="true"
+      android:scaleType="fitXY"
+      android:src="@drawable/istanbul"
+      />
+
+  <ScrollView
+      android:id="@+id/scrollView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@android:color/transparent"
+      >
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        >
+
+      <RelativeLayout
+          android:id="@+id/rlInsideBox5"
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:layout_margin="10dp"
+          android:background="@drawable/siluet"
+          />
+
+      <RelativeLayout
+          android:id="@+id/rlInsideBox4"
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:layout_below="@id/rlInsideBox5"
+          android:layout_margin="10dp"
+          android:background="#486140"
+          />
+
+      <RelativeLayout
+          android:id="@+id/rlInsideBox3"
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:layout_below="@id/rlInsideBox4"
+          android:layout_margin="10dp"
+          android:background="#d400338b"
+          />
+
+      <RelativeLayout
+          android:id="@+id/rlInsideBox2"
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:layout_below="@id/rlInsideBox3"
+          android:layout_margin="10dp"
+          android:background="#20d7de"
+          />
+
+      <RelativeLayout
+          android:id="@+id/rlInsideBox1"
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:layout_below="@id/rlInsideBox2"
+          android:layout_margin="10dp"
+          android:background="#c0fdff"
+          />
+
+      <RelativeLayout
+          android:id="@+id/rlInsideBox"
+          android:layout_width="match_parent"
+          android:layout_height="200dp"
+          android:layout_below="@id/rlInsideBox1"
+          android:layout_margin="10dp"
+          android:background="#ff00ff"
+          />
+
+      <RelativeLayout
+          android:id="@+id/rlInsideBox6"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/rlInsideBox1"
+          android:layout_margin="10dp"
+          android:background="#ff00ff"
+          >
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Istanbul (/ˌɪstænˈbuːl/ or /ˌiːstɑːnˈbuːl/;[8][9] Turkish: İstanbul [isˈtanbuɫ] ( listen)), historically also known as Constantinople and Byzantium, is the most populous city in Turkey and the country's economic, cultural, and historic center. Istanbul is a transcontinental city in Eurasia, straddling the Bosphorus strait (which separates Europe and Asia) between the Sea of Marmara and the Black Sea. Its commercial and historical center lies on the European side and about a third of its population lives on the Asian side.[10] The city is the administrative center of the Istanbul Metropolitan Municipality (coterminous with Istanbul Province), both hosting a population of around 14 million residents.[4] Istanbul is one of the world's most populous cities and ranks as the world's 7th-largest city proper and the largest European city.
+
+Founded under the name of Byzantium on the Sarayburnu promontory around 660 BCE, the city developed to become one of the most significant in history. After its reestablishment as Constantinople in 330 CE, it served as an imperial capital for almost 16 centuries, during the Roman and Byzantine (330–1204 and 1261–1453), the Latin (1204–1261), and the Ottoman (1453–1922) empires.[11] It was instrumental in the advancement of Christianity during Roman and Byzantine times, before the Ottomans conquered the city in 1453 and transformed it into an Islamic stronghold and the seat of the Ottoman Caliphate.[12]
+
+Istanbul's strategic position on the historic Silk Road,[13] rail networks to Europe and the Middle East, and the only sea route between the Black Sea and the Mediterranean have produced a cosmopolitan populace, although less so since the establishment of the Turkish Republic in 1923. Overlooked for the new capital Ankara during the interwar period, the city has since regained much of its prominence. The population of the city has increased tenfold since the 1950s, as migrants from across Anatolia have moved in and city limits have expanded to accommodate them.[14][15] Arts, music, film, and cultural festivals were established at the end of the 20th century and continue to be hosted by the city today. Infrastructure improvements have produced a complex transportation network.
+
+Approximately 12.56 million foreign visitors arrived in Istanbul in 2015, five years after it was named a European Capital of Culture, making the city the world's fifth most popular tourist destination.[16] The city's biggest attraction is its historic center, partially listed as a UNESCO World Heritage Site, and its cultural and entertainment hub can be found across the city's natural harbor, the Golden Horn, in the Beyoğlu district. Considered a global city,[17] Istanbul has one of the fastest-growing metropolitan economies in the world.[18] It hosts the headquarters of many Turkish companies and media outlets and accounts for more than a quarter of the country's gross domestic product.[19] Hoping to capitalize on its revitalization and rapid expansion, Istanbul has bid for the Summer Olympics five times in twenty years.[20]"
+            />
+
+      </RelativeLayout>
+      <Space
+          android:layout_width="wrap_content"
+          android:layout_height="0dp"
+          android:layout_below="@id/rlInsideBox6"
+          android:layout_marginBottom="@dimen/picture_and_sticky_header_height"
+          />
+    </RelativeLayout>
+  </ScrollView>
+
+  <RelativeLayout
+      android:id="@+id/stickyView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sticky_header_height"
+        android:background="#000"
+        android:gravity="center"
+        android:text="@string/description"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        />
+  </RelativeLayout>
+
+
+  <android.support.v7.widget.Toolbar
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:background="@color/toolbar_background"
+      android:minHeight="?attr/actionBarSize"
+      app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+      app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+      style="@style/Base.Widget.AppCompat.Toolbar"
+      />
+</FrameLayout>
